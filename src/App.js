@@ -1,4 +1,5 @@
 import './App.css';
+import Dashboard from './components/views/Dashboard/Dashboard'
 import Github from './components/ui/Github/Github'
 import Codechef from './components/ui/Codechef/Codechef'
 import Leetcode from './components/ui/Leetcode/Leetcode'
@@ -28,8 +29,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Hi, I am Vishal Arora
-        <Github click={() => click(githubUrl)} />
+        <Dashboard />
+        {/* <Github click={() => click(githubUrl)} />
         <Codechef click={() => click(codechefUrl)} />
         <Leetcode click={() => click(leetcodeUrl)} />
         <NPM click={() => click(npmUrl)} />
@@ -39,7 +40,7 @@ function App() {
         <Hackerearth click={() => click(hackerearthUrl)} />
         <Hackerrank click={() => click(hackerrankUrl)} />
         <Fiverr click={() => click(fiverrUrl)} />
-        <Twitch click={() => click(twitchUrl)} />
+        <Twitch click={() => click(twitchUrl)} /> */}
       </header>
     </div>
   );
